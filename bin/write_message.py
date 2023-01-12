@@ -7,11 +7,11 @@ import school
 max_score = 100
 test_name = "Python Challenge"
 students = [
-    {"name": "Sandrine",  "score": 100, "pdate": "2021-10-01"},
-    {"name": "Gergeley", "score": 87, "pdate": "2022-12-09"},
-    {"name": "Frieda", "score": 92, "pdate": "2022-06-07"},
-    {"name": "Elena", "score": 92, "pdate": "2023-01-07"},
-    {"name": "foo", "score": 92, "pdate": "2023-01-12"},
+    {"name": "Sandrine",  "score": 100, "pdate": "2021.10.01"},
+    {"name": "Gergeley", "score": 87, "pdate": "2022.12.09"},
+    {"name": "Frieda", "score": 92, "pdate": "2015.06.07"},
+    {"name": "Elena", "score": 92, "pdate": "2023.01.07"},
+    {"name": "foo", "score": 92, "pdate": "2023.01.12"},
 
 ]
 

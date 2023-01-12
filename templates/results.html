@@ -1,0 +1,8 @@
+
+
+
+{% for student in students|sort(attribute="pdate", reverse=true) %}
+  <p>
+    {{ student.name }} {{ student.pdate }}
+  </p>
+{% endfor %}
