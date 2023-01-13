@@ -2,7 +2,7 @@
 
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
-import school
+#import school
 
 max_score = 100
 test_name = "Python Challenge"
@@ -22,7 +22,7 @@ environment = Environment(loader=FileSystemLoader("./templates/"))
 template = environment.get_template("results.html")
 
 
-for student in school.students:
+for student in students:
 
     results_filename = "./web/students_results.html"
     results_template = environment.get_template("results.html")
