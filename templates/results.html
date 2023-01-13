@@ -3,6 +3,6 @@
 
 {% for student in students|sort(attribute="pdate", reverse=true) %}
   <p>
-    {{ student.name }} {{ student.pdate }}
+    {{ student.name }} {{ student.pdate|datetime_format("%B %Y")}}
   </p>
 {% endfor %}

@@ -22,6 +22,12 @@ environment = Environment(loader=FileSystemLoader("./templates/"))
 template = environment.get_template("results.html")
 
 
+def datetime_format(value, format="%H:%M %d-%m-%y"):
+    return value.strftime(format)
+
+
+environment.filters["datetime_format"] = datetime_format
+
 for student in students:
 
     results_filename = "./web/students_results.html"
